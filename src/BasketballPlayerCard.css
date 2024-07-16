@@ -1,0 +1,26 @@
+ .player-card{
+    background-color: white;
+    padding: 20px;
+    width: 22%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px #777;
+    font-family:monospace;
+    border: 1px solid rgb(16, 6, 6);
+    background-image: linear-gradient(rgba(138, 243, 238, 0.742), yellow);
+ }
+
+ .player-image {
+    width: auto; /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border: 2px solid black;
+  }
+
+  @media (max-width: 900px) {
+   .player-card {
+    width: auto;
+     max-width: 90%;
+   }
+}
